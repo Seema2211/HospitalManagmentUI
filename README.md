@@ -25,7 +25,7 @@ A simple and interactive **Angular 17** front-end for managing hospital appointm
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/your-username/hospital-appointments-ui.git
+git clone https://github.com/Seema2211/HospitalManagmentUI.git
 cd hospital-appointments-ui
 
 
