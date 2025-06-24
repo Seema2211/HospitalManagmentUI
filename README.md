@@ -12,7 +12,7 @@ A simple and interactive **Angular 17** front-end for managing hospital appointm
 
 ## 📦 Tech Stack
 
-- Angular 17+
+- Angular 17.3.17
 - Bootstrap 5
 - TypeScript
 - RxJS
@@ -24,7 +24,7 @@ A simple and interactive **Angular 17** front-end for managing hospital appointm
 
 ### 1. Clone the project
 
-```bash
+
 git clone https://github.com/Seema2211/HospitalManagmentUI.git
 cd hospital-appointments-ui
 
