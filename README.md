@@ -8,8 +8,6 @@ A simple and interactive **Angular 17** front-end for managing hospital appointm
 - ✅ Toast notifications
 - ✅ REST API integration
 
----
-
 ## 📦 Tech Stack
 
 - Angular 17.3.17
@@ -18,33 +16,29 @@ A simple and interactive **Angular 17** front-end for managing hospital appointm
 - RxJS
 - Reactive Forms
 
----
-
 ## 🚀 Getting Started
 
-### 1. Clone the project
+1. Clone the project
 
-
+```bash
 git clone https://github.com/Seema2211/HospitalManagmentUI.git
 cd hospital-appointments-ui
-
+```
 
 2. Install dependencies
-
+```bash
 npm install
-
-
-
+```
 3. Run the app
+```bash
+ng serve -o
+```
 
-ng serve
 http://localhost:4200
 
 
 
-
-
-🧩 Features
+## 🧩 Features
 📅 View, Add, Edit, and Delete appointments
 
 📝 Form validation with required field messages
@@ -56,14 +50,13 @@ http://localhost:4200
 🔔 Toast messages for feedback
 
 
-
-
+```base
 app/
 └── appointments/
     ├── appointments.component.ts      // logic + API calls
     ├── appointments.component.html    // Bootstrap UI + modal
     └── appointments.component.css     // optional styles
-
+```
 
 
 | Method | Endpoint                |
@@ -76,7 +69,7 @@ app/
 
 
 
-🧠 Form Validation
+## 🧠 Form Validation
 All fields required: PatientName, DoctorName, Date, Time
 
 Displays validation errors beneath fields
